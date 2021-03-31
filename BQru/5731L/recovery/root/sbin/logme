@@ -1,0 +1,4 @@
+﻿#!/sbin/sh
+while read F; do
+echo "${F}"
+done < /tmp/recovery.log
